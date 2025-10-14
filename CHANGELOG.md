@@ -1,12 +1,11 @@
-# XMMX BRIDGE RESOURCE
+# XMMX BRIDGE RESOURCE v2.4
 
-**Update v2.2 - 10/11/2025:**
+**Update v2.3 -> v2.4 - 10/14/2025:**
 ```
-• Fixed typo in fxmanifest which caused editable files to be escrowed.
-• Fixed item exploit in editable/consumables.lua.
-• Reorganized cache.lua, in particular detect qbx before qb, and ak47_qb_inventory before ak47_inventory.
+• Fixed typo in shared/cache.lua.
+• Changed resource check at the top of each client/inventory file to independently check the resource state.
+• Fixed framework check in server/functions.lua and shared/cache.lua.
 ```
-*Please keep in mind, you can delete the files that you don't use if they're conflicting. This tends to be
-the case in AK Inventories due to the fxmanifest.lua providing qb-inventory and both his inventories.*
+*If having issues, delete any files not relevant to your inventory or framework! This will resolve a lot of issues for those having errors! In particular, the `GetItemLabel` error.*
     
 *Download the update from https://portal.cfx.re/assets/granted-assets*
