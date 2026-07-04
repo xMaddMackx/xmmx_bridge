@@ -1,11 +1,11 @@
-# XMMX BRIDGE RESOURCE v2.6
+# XMMX BRIDGE RESOURCE v2.7
 
-**Update v2.4 -> v2.6 - 11/11/2025:**
+**Update v2.7 - 7/03/2026:**
 ```
-• Removed the zoom functionality as it was optional and when setting enableZoom to false was causing an error in the script.
-• Moved qbx_core to be checked before qb-core since qbx_core provides qb-core and would cause the bridge to think qb-core was started on qbx.
-• Reverted some variables back to the old way as requested by many.
-• Other minor code cleanup.
+• Updated to Support Latest Frameworks.
+• Added ESX Duty Toggle Compatability.
+• Added compatability for my custom Dash Drone App Add-On (free release).
+• Updated compatability for several resource fixes and updates coming soon.
 ```
 
 *Download the update from https://portal.cfx.re/assets/granted-assets*
