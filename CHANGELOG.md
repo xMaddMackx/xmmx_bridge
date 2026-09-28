@@ -1,12 +1,10 @@
-# XMMX BRIDGE RESOURCE v2.8
+# XMMX BRIDGE RESOURCE v3.0 - Hotfix
 
-**Update v2.8 - 7/05/2026:**
+**Update v3.0 - 9/28/2026:**
 ```
-• Improved framework detection so xmmx_bridge no longer mistakes QBX’s qb-core compatibility layer for the real qb-core resource.
-• Updated bridge logic to use the detected framework consistently across client and server files.
-• Fixed QBX servers incorrectly entering QBCore-only code paths, which caused nil QBCore errors.
-• Restricted QB inventory adapters to only load when the actual detected framework is qb-core.
-• Updated QBX consumable and duty/boss menu handling to use QBX exports instead of QBCore globals.
+• Fixed a client-side script error on resource start (syntax error near '<\1>' in client/utils/main.lua).
+• Cleaned up internal client utilities for more reliable loading.
+• No config changes needed. Replace your existing xmmx_bridge folder with the new version and restart the server.
 ```
 
 *Download the update from https://portal.cfx.re/assets/granted-assets*
